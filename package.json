@@ -1,0 +1,18 @@
+{
+  "name": "middlewares-twtg",
+  "version": "1.0.0",
+  "description": "it is a package to control the middlewares of the microservices",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "node-polyglot": "^2.4.0"
+  }
+}

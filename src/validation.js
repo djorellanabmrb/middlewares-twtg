@@ -11,12 +11,7 @@ class ValidationMiddleware{
             
             if (!errors.isEmpty()){
                 errors = errors.array();
-                errors = errors.map((error)=>{
-                    let details = error.split(":");
-                    details = details[1];
-                    details = details.trim();
-                    return req.polyglot.t(`validations.${details}`);
-                });
+                errors = errors.map((error)=>req.polyglot.t(`validations.${error.msg}`));
                 return res.status(422).send({ message: errors });  
             }    
             next();

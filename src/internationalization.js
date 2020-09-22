@@ -1,6 +1,6 @@
 const Polyglot = require('node-polyglot');
 const {LanguageEnum} = require("./enums");
-const Internationalization = require("./internationalization")
+const Internationalization = require("./internationalization/index");
 
 class InternationalizationMiddleware{
     constructor(){

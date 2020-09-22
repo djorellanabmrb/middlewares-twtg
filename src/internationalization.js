@@ -6,12 +6,12 @@ class InternationalizationMiddleware{
     constructor(){
     }
     async attachI18(req, res, next){
-        const acceptLanguage = req.header('Accept-Language');
+        let acceptLanguage = req.header('Accept-Language');
         try {
             LanguageEnum.isValidEnum(acceptLanguage);
         } catch (error) {
-            return res.status(406)
-            .json({message: 'You must add the header, Accept-Language, with the values of "es" or "en".'});
+            acceptLanguage = "es";
+            res.set("Accept-Language", "es");
         }
         req.polyglot = new Polyglot();
         if(acceptLanguage === LanguageEnum.EN){

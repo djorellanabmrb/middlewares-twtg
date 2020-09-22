@@ -11,8 +11,7 @@ describe("Internationalization Middleware", ()=>{
         reqMockup.headers({});
         await internationalizationMiddleware.attachI18(reqMockup, resMockup, nextMockup)
 
-        expect(resMockup.status).to.be.eql(406);
-        expect(resMockup.json.message).to.be.eql('You must add the header, Accept-Language, with the values of "es" or "en".');
+        expect(resMockup.headers["Accept-Language"]).to.be.eql("es");
     });
 
     test("Accept-Language invalid", async () =>{
@@ -23,8 +22,7 @@ describe("Internationalization Middleware", ()=>{
         reqMockup.headers({"Accept-Language":"fr"});
         await internationalizationMiddleware.attachI18(reqMockup, resMockup, nextMockup)
 
-        expect(resMockup.status).to.be.eql(406);
-        expect(resMockup.json.message).to.be.eql('You must add the header, Accept-Language, with the values of "es" or "en".');
+        expect(resMockup.headers["Accept-Language"]).to.be.eql("es");
     });
 
     test("Accept-Language valid", async () =>{

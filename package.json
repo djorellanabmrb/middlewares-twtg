@@ -13,6 +13,7 @@
     "jest": "^26.4.2"
   },
   "dependencies": {
+    "express-validator": "^6.6.1",
     "node-polyglot": "^2.4.0"
   }
 }

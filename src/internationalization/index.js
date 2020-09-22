@@ -1,8 +1,10 @@
 module.exports = {
     en:{
-        errors: require("./errors/en.error")
+        errors: require("./errors/en.error"),
+        validations: require("./validations/en.validation")
     },
     es:{
-        errors: require("./errors/es.error")
+        errors: require("./errors/es.error"),
+        validations: require("./validations/es.validation")
     },
 }

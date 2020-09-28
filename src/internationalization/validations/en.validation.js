@@ -7,5 +7,20 @@ module.exports = {
     "val6":"latitude must be float between -90 and 90",
     "val7":"longitude must be float between -180 and 180",
     "val8":"token id must not be empty",
-    "val9":"token id must be string"
+    "val9":"token id must be string",
+    "val10":"the route must not be empty",
+    "val11":"the route must be string",
+    "val12":"the order id must be not empty",
+    "val13":"the order id must be string",
+    "val14":"the status must not be empty",
+    "val15":"the status must be string",
+    "val16":"the company must not be empty",
+    "val17":"the company must be string",
+    "val18":"the branch office must not be empty",
+    "val19":"the branch office must be string",
+    "val20":"the alert must not be empty",
+    "val21":"the alert must be string",
+    "val22":"the biker must be string",
+    "val23":"the biker must not be empty",
+    "val24":"the created At must be date"
 };

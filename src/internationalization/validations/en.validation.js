@@ -5,5 +5,7 @@ module.exports = {
     "val4":"regionId must be integer",
     "val5":"cityId must be integer",
     "val6":"latitude must be float between -90 and 90",
-    "val7":"longitude must be float between -180 and 180"
+    "val7":"longitude must be float between -180 and 180",
+    "val8":"token id must not be empty",
+    "val9":"token id must be string"
 };

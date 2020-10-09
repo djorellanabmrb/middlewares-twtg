@@ -22,5 +22,7 @@ module.exports = {
     "val21":"the alert must be string",
     "val22":"the biker must be string",
     "val23":"the biker must not be empty",
-    "val24":"the created At must be date"
+    "val24":"the created At must be date",
+    "val25":"the uuid of the user must not be empty",
+    "val26":"the uuid of the user must be string"
 };

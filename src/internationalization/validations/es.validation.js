@@ -22,5 +22,7 @@ module.exports = {
     "val21":"la alerta debe ser cadena",
     "val22":"el motociclista debe ser cadena",
     "val23":"la motociclista no debe estar vacio",
-    "val24":"la fecha de creación debe ser una fecha"
+    "val24":"la fecha de creación debe ser una fecha",
+    "val25":"el uuid del usuario debe ser must be",
+    "val26":"the uuid of the user must be string"
 };

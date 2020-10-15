@@ -1,4 +1,11 @@
 module.exports = {
+    "catalogs":{
+        "val1": "la página debe ser númerico",
+        "val2": "el nombre debe ser una cadena",
+        "val3": "el identificador del país debe ser númerico",
+        "val4": "el identificador de la región debe ser númerico",
+        "val5": "el identificador de la ciudad debe ser númerico",
+    },
     "val1":"la página debe ser númerico",
     "val2":"el nombre de la búsqueda debe ser cadena",
     "val3":"el countryId debe ser entero",

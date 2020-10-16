@@ -6,7 +6,7 @@ class ErrorMiddleware{
     async checkErrors(err, req, res, next){
         if(err.code != 500)
         {
-            let message = req.polyglot.t(`errors.${err.message}`)
+            let message = req.polyglot.t(err.message);
             return res.status(err.code).send({ message });
         }else{
             return res.status(500).send("It is a new error on the system"); 

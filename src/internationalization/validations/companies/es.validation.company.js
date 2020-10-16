@@ -22,5 +22,8 @@ module.exports = {
     "val21": "el poligono simple debe ser un arreglo",
     "val22": "el poligono debe tener 4 elementos",
     "val23": "el valor del inicio y final debe ser lo mismo en un poligono",
-    "val24": "todos los valores del poligono debe ser diferente (exceptuando el primero y el final)"
+    "val24": "todos los valores del poligono debe ser diferente (exceptuando el primero y el final)",
+    "val25": "el identificador de país debe ser númerico",
+    "val26": "el identificador de región debe ser númerico",
+    "val27": "el identificador de ciudad debe ser númerico"
 }

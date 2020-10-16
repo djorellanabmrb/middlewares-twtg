@@ -25,5 +25,6 @@ module.exports = {
     "val24": "todos los valores del poligono debe ser diferente (exceptuando el primero y el final)",
     "val25": "el identificador de país debe ser númerico",
     "val26": "el identificador de región debe ser númerico",
-    "val27": "el identificador de ciudad debe ser númerico"
+    "val27": "el identificador de ciudad debe ser númerico",
+    "val27": "el identificador del lugar transitado debe ser númerico"
 }

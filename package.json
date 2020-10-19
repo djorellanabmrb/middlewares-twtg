@@ -6,8 +6,16 @@
   "scripts": {
     "test": "npx jest ",
     "install-dev-dep": "npm run install-configs",
-    "install-configs": "npm uninstall djorellanabmrb/configs-twtg#master && npm install --save djorellanabmrb/configs-twtg#master -or-commit-or-tag"
+    "install-configs": "npm uninstall twowheelstogo/backend-configs-twtg#master && npm install --save twowheelstogo/backend-configs-twtg#master -or-commit-or-tag"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twowheelstogo/backend-middlewares-twtg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twowheelstogo/backend-middlewares-twtg/issues"
+  },
+  "homepage": "https://github.com/twowheelstogo/backend-middlewares-twtg#readme",
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -15,7 +23,7 @@
     "jest": "^26.4.2"
   },
   "dependencies": {
-    "configs-twtg": "github:djorellanabmrb/configs-twtg#master",
+    "configs-twtg": "github:twowheelstogo/backend-configs-twtg#master",
     "express-validator": "^6.6.1",
     "node-polyglot": "^2.4.0"
   }

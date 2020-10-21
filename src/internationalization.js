@@ -5,7 +5,7 @@ class InternationalizationMiddleware{
     constructor(){
     }
     attachI18(Internationalization){
-        return async function (req, res, next){
+        return function (req, res, next){
             let acceptLanguage = req.header('Accept-Language');
             try {
                 LanguageEnum.isValidEnum(acceptLanguage);

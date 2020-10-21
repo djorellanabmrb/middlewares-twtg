@@ -4,9 +4,7 @@
   "description": "it is a package to control the middlewares of the microservices",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest ",
-    "install-dev-dep": "npm run install-configs",
-    "install-configs": "npm uninstall twowheelstogo/backend-configs-twtg#master && npm install --save twowheelstogo/backend-configs-twtg#master -or-commit-or-tag"
+    "test": "npx jest "
   },
   "repository": {
     "type": "git",
@@ -23,7 +21,6 @@
     "jest": "^26.4.2"
   },
   "dependencies": {
-    "configs-twtg": "github:twowheelstogo/backend-configs-twtg#master",
     "express-validator": "^6.6.1",
     "node-polyglot": "^2.4.0"
   }

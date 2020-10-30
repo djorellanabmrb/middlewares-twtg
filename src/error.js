@@ -10,7 +10,7 @@ class ErrorMiddleware{
             return res.status(err.code).send({ message });
         }else{
             console.log(err);
-            return res.status(500).send({message:"It is a new error on the system"}); 
+            return res.status(500).send({err}); 
         }
     }
 }

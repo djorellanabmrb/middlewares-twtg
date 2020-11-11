@@ -6,6 +6,7 @@ class FileMiddleware{
     }
     async removeFile(req, res){
         try {
+            const fs = require('fs');
             fs.unlinkSync(req.file.path);
         } catch (error) {
             console.log(error);

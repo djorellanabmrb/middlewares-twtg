@@ -1,4 +1,5 @@
-const {JwtConfig:{secret}} = require("configs-twtg")
+const {JwtConfig:{secret}} = require("configs-twtg");
+const jwt = require("jsonwebtoken");
 class JwtMiddleware{
     constructor(){
     }

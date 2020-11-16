@@ -24,6 +24,7 @@
   "dependencies": {
     "configs-twtg": "github:twowheelstogo/backend-configs-twtg#master",
     "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
     "node-polyglot": "^2.4.0"
   }
 }
